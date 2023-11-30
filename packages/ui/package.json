@@ -1,0 +1,19 @@
+{
+  "name": "ui",
+  "version": "1.0.0",
+  "private": true,
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/UI.js",
+  "exports": {
+    "./A": "./dist/A.js",
+    "./UI": "./dist/UI.js"
+  },
+  "scripts": {
+    "build": "node ./scripts/build.js"
+  },
+  "devDependencies": {
+    "glob": "^8.1"
+  }
+}
